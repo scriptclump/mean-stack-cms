@@ -1,14 +1,7 @@
-# SB Admin rewritten in Angular4 and Bootstrap 4
+# MEAN Stack CMS rewritten in Angular4 and Bootstrap 4 and Custom MEAN Stack
 
-Simple Dashboard Admin App built using Angular 4 and Bootstrap 4
+Simple Content Management System
 
-This project is a port of the famous Free Admin Bootstrap Theme [SB Admin v4.0](http://startbootstrap.com/template-overviews/sb-admin-2/) to Angular4 Theme.
-
-Powered by [StartAngular](http://startangular.com/) & [StrapUI](http://strapui.com/)
-
-## [Demo](http://rawgit.com/start-angular/SB-Admin-BS4-Angular-4/master/dist/)
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ### Introduction
 Provides fast, reliable and extensible starter for the development of Angular projects.
