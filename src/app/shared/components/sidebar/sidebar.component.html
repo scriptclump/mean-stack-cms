@@ -3,14 +3,20 @@
         <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'dashboard' | translate }}
         </a>
-        <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-users"></i>&nbsp;{{ 'user' | translate }}
+        <!-- <a routerLink="['/pages']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-server"></i>&nbsp;{{ 'pages' | translate }}
         </a>
-        <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        <a routerLink="['/users']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-users"></i>&nbsp;{{ 'users' | translate }}
+        </a>
+        <a routerLink="['/banners']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-photo"></i>&nbsp;{{ 'banners' | translate }}
         </a>
-        <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        <a routerLink="['/settings']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-cogs"></i>&nbsp;{{ 'settings' | translate }}
+        </a> -->
+        <a [routerLink]="['/pages']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'pages' | translate }}
         </a>
         <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'charts' | translate }}
