@@ -11,6 +11,8 @@ const routes: Routes = [
             { path: 'page/add', loadChildren: './page-add/page-add.module#PageAddModule' },
             { path: 'banners', loadChildren: './banners/banners.module#BannersModule' },
             { path: 'banner/add', loadChildren: './banner-add/banner-add.module#BannerAddModule' },
+            { path: 'users', loadChildren: './users/users.module#UsersModule' },
+            { path: 'user/add', loadChildren: './user-add/user-add.module#UserAddModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
