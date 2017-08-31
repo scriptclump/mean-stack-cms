@@ -1,8 +1,8 @@
-<div [@routerTransition]>
-    <app-page-header [heading]="'Pages'" [icon]="'fa-file-text'"></app-page-header>
-
+<div [@routerTransition]>    
+    <h1><a [routerLink]="['/page/add']"><button class="btn btn-primary"><i class="fa fa-plus-square"></i>&nbsp;Add Page</button></a></h1>
+    <app-page-header [heading]="'List Pages'" [icon]="'fa-file-text'" ></app-page-header>
     <data-table id="films-grid"
-        headerTitle="Films"
+        headerTitle="Page List"
         [items]="films"
         [itemCount]="filmCount"
         (reload)="reloadFilms($event)"

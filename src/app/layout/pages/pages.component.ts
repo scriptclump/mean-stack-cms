@@ -38,6 +38,8 @@ export class PagesComponent implements OnInit {
         paginationLimit: 'Max results',
         paginationRange: 'Result range'
     };
+
+
     ngOnInit() {
     }
 }
