@@ -9,6 +9,8 @@ const routes: Routes = [
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
             { path: 'pages', loadChildren: './pages/pages.module#PagesModule' },
             { path: 'page/add', loadChildren: './page-add/page-add.module#PageAddModule' },
+            { path: 'banners', loadChildren: './banners/banners.module#BannersModule' },
+            { path: 'banner/add', loadChildren: './banner-add/banner-add.module#BannerAddModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
