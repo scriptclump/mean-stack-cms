@@ -16,6 +16,8 @@ const routes: Routes = [
             { path: 'faq', loadChildren: './faq/faq.module#FAQModule' },
             { path: 'faq/add', loadChildren: './faq-add/faq-add.module#FAQAddModule' },
             { path: 'contact-us', loadChildren: './contacts/contacts.module#ContactsModule' },
+            { path: 'settings', loadChildren: './settings/settings.module#SettingsModule' },
+            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
